@@ -14,6 +14,8 @@ status:
 
 # Organizations/Affiliations
 organizations:
+- name: Applied Medical
+  url: https://www.appliedmedical.com/
 - name: University of California, Berkeley
   url: https://engineering.berkeley.edu/
 
