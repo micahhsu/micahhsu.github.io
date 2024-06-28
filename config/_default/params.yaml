@@ -4,43 +4,40 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
-
 appearance:
-  theme_day: custom
-  theme_night: custom
-  font: minimal
-  font_size: L
+  mode: system
+  color: emerald
 
 # SEO
-
 marketing:
   seo:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo blog theme powered by Wowchemy website builder.'
+    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''
+    plausible: ''
+    fathom: ''
+    pirsch: ''
   verification:
     google: ''
     baidu: ''
 
 # Site header
-
 header:
   navbar:
     enable: true
-    align: r
-    show_logo: false
-    show_language: false
-    show_day_night: true
+    blox: "navbar"
+    fixed_to_top: true
     show_search: true
-    highlight_active_link: false
+    show_theme_chooser: true
+    logo:
+      text: "Your Name"
 
+# Site footer
 footer:
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
@@ -51,57 +48,13 @@ footer:
       allow_commercial: false
 
 # Localization
-
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
 
 # Site features
-
 features:
-  syntax_highlighter:
-    enable: true
-    extra_languages:
-      - r
-      - latex
   math:
     enable: false
   privacy_pack:
-    enable: false
-  repository:
-    url: 'https://github.com/<username>/<repository>'
-    content_dir: content
-    branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
-  search:
-    provider: ''
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
-  map:
-    provider: ''
-    api_key: ''
-    zoom: 15
-
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academicons:
     enable: false
