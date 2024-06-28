@@ -13,9 +13,9 @@ status:
   icon: ☕️
 
 # Organizations/Affiliations
-#organizations:
-#- name: 腾讯
-#  url: ""
+organizations:
+- name: University of California, Berkeley
+  url: https://engineering.berkeley.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
