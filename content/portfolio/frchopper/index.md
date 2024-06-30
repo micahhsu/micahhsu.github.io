@@ -1,5 +1,5 @@
 ---
-title: 6 DoF Robotic Arm
+title: FRC 2022 Hopper
 summary: Easily learn Python in 10 minutes!
 date: 2023-10-24
 type: docs
