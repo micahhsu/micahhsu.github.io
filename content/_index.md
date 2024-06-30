@@ -36,7 +36,7 @@ sections:
       title: Portfolio
       filters:
         folders:
-          - project
+          - publication
         featured_only: true
     design:
       view: article-grid
