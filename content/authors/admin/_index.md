@@ -10,8 +10,8 @@ first_name: Micah
 last_name: Hsu
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -33,7 +33,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:micah.hsu3@gmail.com'
     label: E-mail Me
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/micah-hsu
@@ -174,4 +174,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hi! My name is Micah Hsu, and I am a mechanical engineering student at UC Berkeley.
