@@ -16,7 +16,7 @@ This arm is the most difficult and time-consuming project that I have ever attem
 
 I'll talk about this project in three phases: design, manufacturing, and testing. But first, a video:
 
-{{< youtube 2kkPbTSSpe0?t=83 >}}
+{{< youtube 2kkPbTSSpe0 >}}
 
 ## Design
 
