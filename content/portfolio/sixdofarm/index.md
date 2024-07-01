@@ -1,14 +1,28 @@
 ---
 title: 6 DoF Robotic Arm
-summary: Easily learn Python in 10 minutes!
+summary: Six degree of freedom robotic arm for my college's Mars rover team.
 date: 2023-10-24
-type: docs
+type: project
 math: false
 tags:
   - Python
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
+
+I built a 6 degree of freedom robotic arm for my mars rover team, competing in the University Rover Challenge. Leading it from design to the field, it was a tremendous success.
+
+This arm is the most difficult and time-consuming project that I have ever attempted, but also the most rewarding. The requirements were mechanically and electrically challenging, and the design and implementation proved to require countless iterations.
+
+I'll talk about this project in three phases: design, manufacturing, and testing. But first, a video:
+
+{{< youtube 2kkPbTSSpe0?t=83 >}}
+
+## Design
+
+## Manufacturing
+
+## Testing
 
 [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
 
