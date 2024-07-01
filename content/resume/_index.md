@@ -1,6 +1,6 @@
 ---
-title: Teaching
-summary: My courses
+title: Portfolio
+summary: My projects
 type: landing
 
 cascade:
@@ -11,12 +11,12 @@ cascade:
 
 sections:
   - block: collection
-    id: teaching
+    id: portfolio
     content:
-      title: Teaching
+      title: Portfolio
       filters:
         folders:
-          - teaching
+          - portfolio
     design:
       view: article-grid
       columns: 2

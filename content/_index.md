@@ -30,15 +30,5 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: collection
-    id: portfolio
-    content:
-      title: Portfolio
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
+
 ---
