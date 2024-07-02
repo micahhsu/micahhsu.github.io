@@ -1,7 +1,7 @@
 ---
 title: 6 DoF Robotic Arm
-summary: Six degree of freedom robotic arm for my college's Mars rover team.
-date: 2023-10-24
+summary: Next generation robotic arm for my college's Mars rover team.
+date: 2024
 type: project
 math: false
 tags:
@@ -14,7 +14,7 @@ I built a 6 degree of freedom robotic arm for my [SC Robotics](https://saddlebac
 
 This arm is the most difficult and time-consuming project that I have ever attempted, but also the most rewarding. The requirements were mechanically and electrically challenging, and the design and implementation required countless iterations.
 
-First, a video:
+First, a video (1:23 for the arm):
 
 {{< youtube 2kkPbTSSpe0 >}}
 

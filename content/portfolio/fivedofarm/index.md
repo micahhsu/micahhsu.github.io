@@ -1,140 +1,84 @@
 ---
-title: Five DoF Robotic Arm
-summary: Easily learn Python in 10 minutes!
-date: 2023-10-24
-type: docs
+title: 5 DoF Robotic Arm
+summary: Five degree of freedom robotic arm for my college's Mars rover team
+date: 2023
+type: project
 math: false
 tags:
-  - Python
+  - University Rover Challenge
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: '5 DoF Robotic Arm'
 ---
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
+I built a 6 degree of freedom robotic arm for my [SC Robotics](https://saddlebackcollegerobotics.com/), my college mars rover team, competing in the [University Rover Challenge](https://urc.marssociety.org/home). Leading it from design to the field, it was a tremendous success.
 
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
+This arm is the most difficult and time-consuming project that I have ever attempted, but also the most rewarding. The requirements were mechanically and electrically challenging, and the design and implementation required countless iterations.
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
+First, a video (1:23 for the arm):
 
-## Video
+{{< youtube 2kkPbTSSpe0 >}}
 
-Teach your course by sharing videos with your students. Choose from one of the following approaches:
+## Design
+### Overall Design
+![Arm Screenshot](arm-screenshot.png)
+Looking back to the robotic arm I designed in the previous year, I realized that it lacked mobility. With only five degrees of freedom, the two most important axes had limited rotational range. To increase mobility, this new arm would have six degrees of freedom with a brushless motor and gearbox at every axis, eliminating the linear actuators and brushed motors we had used before. The design was inspired by one that a previous team member had modeled.
 
-{{< youtube D2vj0WcvH5c >}}
+### Electronics
+![Arm Motor](arm-motor.jpg)
+![Arm Calculations](arm-calculations.png)
+The electronics essentially consisted of a fusebox, buck converter, motors, motor drivers, and cameras. I chose a 24V system, an upgrade from the previous 12V system, allowing higher torque density and cooler thermals. For the motors, I selected 24V brushless motors for a greater precision and efficiency despite more difficult controls. To spec the correct motors, I created a spreadsheet ballparking the torque required for each axis, leading to the selection of several EC Flat Maxon motors, which worked great.
 
-**Youtube**:
+### Gearboxes
+![Cycloidal Drive GIF](arm-cycloidal-drive.gif)
+![Cycloidal Drive](arm-cycloidal-drive.png)
+Each axis comprised a motor and a gearbox to produce the right amount of torque. I used strain wave gearboxes at the first three axes, which sustain the highest moment, and I used custom cycloidal gearboxes for the final three axes. These gearboxes were designed by a previous member but never successfully prototyped. I revised and tested them.
 
-    {{</* youtube w7Ft2ymGmfc */>}}
+### Materials
+![Arm Tube FEA](arm-tube-fea.png)
+![Forearm](arm-forearm.png)
+For the materials selection, I considered that my machining capability consisted of a CNC router and 3D printers, along with other simple machines like bandsaws, drill presses, and bench grinders. Consequently, I chose a 6061-T6 aluminum frame, making it light, sturdy, and machinable. I performed FEA on structural parts to ensure safety under expected loads.
 
-**Bilibili**:
+## Manufacturing
+I did most of the manufacturing and assembly for this arm, and it took me a couple months. Here are a couple images of the build!
+![Arm 3D Printing](arm-3d-printing.jpg)
+![Arm Machining](arm-machining.jpg)
+![Arm Plates](arm-plates.jpg)
+![Arm Plates2](arm-plates2.jpg)
+![Arm Assembly](arm-assembly.JPG)
+![Arm Cycloidal Drive](arm-cycloidal-drive.png)
+![Arm Bicep](arm-bicep.jpg)
+![Arm Bicep Comparison](arm-bicep-comparison.jpg)
+![Arm First Build](arm-first-build2.jpg)
+![Arm with Wires](arm-with-wires.jpg)
+![Arm on Rover](arm-on-rover.jpg)
 
-    {{</* bilibili id="BV1WV4y1r7DF" */>}}
+## Testing
+During testing, there were two critical failures that happened. 
 
-**Video file**
+First, one of the motors I chose proved to be too weak at the highest load axis. Solution? Bigger motor! And, bigger gearbox.
 
-Videos may be added to a page by either placing them in your `assets/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then embedding them with the _video_ shortcode:
+Second, the structural member at the highest load axis fractured because I frankly did not think hard enough about that design. I had suspected that it would break, but left the problem for later. It was a carbon-fiber nylon 3D printed part, but the orientation of the print made it very weak, and a 3D print was nowhere strong enough for this application. Solution? Design some parts out of metal.
 
-    {{</* video src="my_video.mp4" controls="yes" */>}}
+![Arm Broken Shoulder](arm-broken-shoulder.jpg)
 
-## Podcast
+After those fixes, we were able to get out and start testing. We had several testing runs, but my favorite was carrying this lantern after sunset:
+![Arm with Lantern](arm-lantern.jpg)
 
-You can add a podcast or music to a page by placing the MP3 file in the page's folder or the media library folder and then embedding the audio on your page with the _audio_ shortcode:
+Finally, here's a picture of this arm beside the arm I designed last year!
+![Arm Comparison](arm-mask-photo.jpg)
 
-    {{</* audio src="ambient-piano.mp3" */>}}
+## Competition
+After acceptance into the final competition in Utah for the University Rover Challenge, the rover competed in two missions that involved the arm: the Delivery mission, a long range and intensive task involving search and delivery of heavy objects, and the Equipment Servicing Mission, a mission involving precise movements.
 
-Try it out:
+Here are some images from the Delivery Mission:
+![Arm Delivery](arm-delivery.jpg)
+![Arm Delivery2](arm-delivery2.jpg)
+![Arm Delivery3](arm-delivery3.jpg)
 
-{{< audio src="ambient-piano.mp3" >}}
+Here are some images from the Equipment Servising Mission:
+![Arm Equipment Servicing](arm-equipment-servicing.jpg)
+![Arm Equipment Servicing2](arm-equipment-servicing2.jpg)
+![Arm Equipment Servicing3](arm-equipment-servicing3.jpg)
 
-## Test students
-
-Provide a simple yet fun self-assessment by revealing the solutions to challenges with the `spoiler` shortcode:
-
-```markdown
-{{</* spoiler text="👉 Click to view the solution" */>}}
-You found me!
-{{</* /spoiler */>}}
-```
-
-renders as
-
-{{< spoiler text="👉 Click to view the solution" >}} You found me 🎉 {{< /spoiler >}}
-
-## Math
-
-Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.yaml` file.
-
-To render _inline_ or _block_ math, wrap your LaTeX math with `{{</* math */>}}$...${{</* /math */>}}` or `{{</* math */>}}$$...$${{</* /math */>}}`, respectively.
-
-{{% callout note %}}
-We wrap the LaTeX math in the Hugo Blox _math_ shortcode to prevent Hugo rendering our math as Markdown.
-{{% /callout %}}
-
-Example **math block**:
-
-```latex
-{{</* math */>}}
-$$
-\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
-$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-{{< /math >}}
-
-Example **inline math** `{{</* math */>}}$\nabla F(\mathbf{x}_{n})${{</* /math */>}}` renders as {{< math >}}$\nabla F(\mathbf{x}_{n})${{< /math >}}.
-
-Example **multi-line math** using the math linebreak (`\\`):
-
-```latex
-{{</* math */>}}
-$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}
-$$
-
-{{< /math >}}
-
-## Code
-
-Hugo Blox Builder utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
-
-
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
-
-renders as
-
-```python
-import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
-```
-
-## Inline Images
-
-```go
-{{</* icon name="python" */>}} Python
-```
-
-renders as
-
-{{< icon name="python" >}} Python
-
-## Did you find this page helpful? Consider sharing it 🙌
+## Conclusion
+I learned so much from this project, and what I've talked about here is just a very brief overview. It was so much fun to carry this from design to final performance!
