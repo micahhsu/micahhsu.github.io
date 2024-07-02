@@ -23,7 +23,7 @@ First, a video:
 
 ### Overall Design
 ![Arm Screenshot](arm-screenshot.png)
-Looking back to [the robotic arm I designed in the previous year](({{< relref "/porfolio/fivedofarm" >}})), I realized that it lacked mobility. With only five degrees of freedom, the two most important axes had limited rotational range. To increase mobility, this new arm would have six degrees of freedom with a brushless motor and gearbox at every axis, eliminating the linear actuators and brushed motors we had used before. The design was inspired by one that a previous team member had modeled.
+Looking back to the robotic arm I designed in the previous year, I realized that it lacked mobility. With only five degrees of freedom, the two most important axes had limited rotational range. To increase mobility, this new arm would have six degrees of freedom with a brushless motor and gearbox at every axis, eliminating the linear actuators and brushed motors we had used before. The design was inspired by one that a previous team member had modeled.
 
 ### Electronics
 ![Arm Motor](arm-motor.jpg)

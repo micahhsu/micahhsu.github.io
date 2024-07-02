@@ -20,7 +20,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: Sather Gate.jpg
+          filename: sather-gate.jpg
           filters:
             brightness: 0.5
           size: cover
