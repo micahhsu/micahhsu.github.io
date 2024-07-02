@@ -20,7 +20,7 @@ I'll talk about this project in three phases: design, manufacturing, and testing
 
 ## Design
 
-![End Effector Screenshot](.../assets/media/End%20Effector%20Screenshot.png)
+![End Effector Screenshot](../../../assets/media/End%20Effector%20Screenshot.png)
 
 {{% callout note %}}
 From requirements, napkin sketches, and material selection to mechanism design and revision, take a brief overview of the design process for this arm.
