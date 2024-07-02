@@ -11,5 +11,5 @@ main:
     url: portfolio/
     weight: 20
   - name: Résumé
-    url: resume/
+    url: uploads/micah-hsu-resume.pdf
     weight: 30

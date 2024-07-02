@@ -33,7 +33,7 @@ Looking back to the robotic arm I designed in the previous year, I realized that
 To increase mobility, this new arm would have six degrees of freedom, with brushless motors at every axis, eliminating the linear actuators and brushed motors we had used before. The design was inspired by one that a previous team member had modeled.
 
 ### Electronics
-![Arm Motor](arm-motor.png)
+![Arm Motor](arm-motor.jpg)
 For the electronics, the most difficult thing to select were the brushless motors. To summarize, I chose to run with a 24V system as opposed to the 12V system I had run on last year to allow for higher torque density and more optimized thermals. I chose to run with brushless motors for a greater level of precision and efficiency, despite the more difficult controls required. I also created a spreadsheet calculating a ballpark of the expected torque required for each motor and gearbox combination at every axis. All this led to the selection of several EC Flat Maxon motors, which worked great!
 
 ### Gearboxes

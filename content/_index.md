@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download Résumé
-        url: uploads/Micah Hsu Resume.pdf
+        url: uploads/micah-hsu-resume.pdf
     design:
       css_class: dark
       background:
