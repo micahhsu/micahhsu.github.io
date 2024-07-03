@@ -68,14 +68,14 @@ Finally, here's a picture of this arm beside the arm I designed last year!
 ![Arm Comparison](arm-mask-photo.jpg)
 
 ## Competition
-After acceptance into the final competition in Utah for the University Rover Challenge, the rover competed in two missions that involved the arm: the Delivery mission, a long range and intensive task involving search and delivery of heavy objects, and the Equipment Servicing Mission, a mission involving precise movements.
+After acceptance into the final competition in Utah for the University Rover Challenge, the rover competed in two missions that involved the arm: the Delivery mission, a long range and intensive task involving search and delivery of heavy objects, and the Equipment Servicing Mission, a mission involving precise movements. We did great in both of them!
 
-Here are some images from the Delivery Mission:
+Here are some images from the Delivery Mission (5th place):
 ![Arm Delivery](arm-delivery.jpg)
 ![Arm Delivery2](arm-delivery2.jpg)
 ![Arm Delivery3](arm-delivery3.jpg)
 
-Here are some images from the Equipment Servising Mission:
+Here are some images from the Equipment Servising Mission (11th place):
 ![Arm Equipment Servicing](arm-equipment-servicing.jpg)
 ![Arm Equipment Servicing2](arm-equipment-servicing2.jpg)
 ![Arm Equipment Servicing3](arm-equipment-servicing3.jpg)
