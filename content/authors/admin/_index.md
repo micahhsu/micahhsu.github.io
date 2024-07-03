@@ -39,8 +39,8 @@ profiles:
     url: https://www.linkedin.com/in/micah-hsu
 
 interests:
-  - Robotics
-  - Aerospace
+  - Robotics 🤖
+  - Aerospace 🚀
 
 education:
   - area: Mechanical Engineering
@@ -57,7 +57,7 @@ education:
       GPA: 4.0/4.0
 
 work:
-  - position: Automation Engineer Inter
+  - position: Automation Engineer Intern
     company_name: Applied Medical
     company_url: https://www.appliedmedical.com/
     company_logo: https://media.licdn.com/dms/image/D560BAQEFtXN6bNLgEw/company-logo_200_200/0/1688594181259/appliedmedical_logo?e=1727913600&v=beta&t=ecztKPL0B9jWXYJJoqnu9isj_qbiWB6RklCIIDBsCpc
@@ -96,4 +96,4 @@ awards:
 
 ## About Me
 
-Hi! My name is Micah Hsu, and I am a 17-year-old junior in mechanical engineering at UC Berkeley.
+Hi! My name is Micah Hsu, and I am a 17-year-old junior in mechanical engineering at UC Berkeley. Check out my portfolio and my resume on this website!
