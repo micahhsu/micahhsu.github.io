@@ -44,8 +44,6 @@ This project was my first exposure to such a saturated level of manufacturing. I
 ![End Effector](arm2-end-effector.jpg)
 
 Here are some videos:
-{{< video src="arm2-end-effector-grip.MOV" controls="yes" >}}
-{{< video src="arm2-gear-series.MOV" controls="yes" >}}
 
 ## Competition
 After our Systems Acceptance Review, we were admitted to the final competition in Utah! In this competition there were two missions: the Extreme Retrieval Mission, a long-range task requiring object retrieval of large objects, and the Equipment Servicing Mission, a short-range but very precise and dexterous task.
