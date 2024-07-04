@@ -9,7 +9,7 @@ tags:
 image:
   caption: 'FRC 2023 Telescoping Arm'
 ---
-In high school, I was part of an award winning [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) team. [Team 3476: Code Orange](https://www.teamcodeorange.com/). In the 2023 season, I built a belt-driven telescoping "arm" that could extend up to 19 inches in 0.5 seconds.
+In high school, I was part of an award winning [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) team. [Team 3476: Code Orange](https://www.teamcodeorange.com/). In the 2023 season, I designed a belt-driven telescoping "arm" that could extend up to 19 inches in 0.5 seconds.
 
 Here is our reveal video:
 
@@ -31,7 +31,7 @@ Some other highlights of this design include the see-through pocketing (which to
 ## Manufacturing
 I directed the manufacturing of this arm, making all the drawings for parts, giving them to the manufacturing team, and keeping track of a manufacturing list. Here are some photos of the process:
 ![3D Printed Parts](arm3-printed-parts.jpg)
-![Drawing](arm3-drawing.jpg)
+![Drawing](arm3-drawing.jpg "(I wasn't great at drawings back then 😅)")
 ![Arm on Robot](arm3-on-robot.jpg)
 ![Final Build](arm3-final-build.jpg)
 ![Final Robot](arm3-final-on-robot.jpg)
