@@ -20,7 +20,7 @@ Each season starts with prototyping, and I experimented with lots of different m
 {{< video src="arm3-prototype.mp4" controls="yes" >}}
 We eventually decided against this design because although it is fast, it only allows the telescope to be fully extended or fully retracted, with no in-between positions. We required that the system have precise extension, extend and retract in less than a second, and be lightweight.
 
-### Design
+## Design
 After debating on constant force springs, lead screws, and pneumatic cylinders, I decided on a belt-drive design. With this, I had to figure the very complex geometry for this robot. Let's just say, given the constraints of the robot size and the desired extension, I really learned how to make good sketches.
 ![Arm Sketch](arm3-sketch.jpg)
 

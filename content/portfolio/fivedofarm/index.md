@@ -34,7 +34,6 @@ Also, the previous year's "wrist" was very complicated with tons of different ge
 ## Manufacturing
 This project was my first exposure to such a saturated level of manufacturing. I manufactured almost all of the components on this arm using a CNC router, 3D printers, and other machines like bandsaws and drill presses. Here are a few images of the process:
 ![Arm Plates](arm2-plates.JPG)
-![Arm Plates2](arm2-plates2.jpg)
 ![Arm Plates3](arm2-plates3.JPG)
 ![Arm Plates4](arm2-plates4.jpg)
 ![Arm L Brackets](arm2-l-brackets.jpg)
