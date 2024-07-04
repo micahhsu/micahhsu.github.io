@@ -38,9 +38,9 @@ profiles:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/micah-hsu
 
-interests:
-  - Robotics 🤖
-  - Aerospace 🚀
+#interests:
+#  - Robotics 🤖
+#  - Aerospace 🚀
 
 education:
   - area: Mechanical Engineering
