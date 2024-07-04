@@ -56,44 +56,44 @@ education:
     summary: |
       GPA: 4.0/4.0
 
-work:
-  - position: Automation Engineer Intern
-    company_name: Applied Medical
-    company_url: https://www.appliedmedical.com/
-    company_logo: https://media.licdn.com/dms/image/D560BAQEFtXN6bNLgEw/company-logo_200_200/0/1688594181259/appliedmedical_logo?e=1727913600&v=beta&t=ecztKPL0B9jWXYJJoqnu9isj_qbiWB6RklCIIDBsCpc
-    date_start: 2024-06-03
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Applications Engineer Intern
-    company_name: Hexagon Manufacturing Intelligence
-    company_url: https://hexagon.com/company/divisions/manufacturing-intelligence
-    company_logo: https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/305479426_5774406909277911_7096762170795830164_n.jpg?stp=dst-jpg_p480x480&_nc_cat=107&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=YJoMCzdgo0wQ7kNvgGrZhGj&_nc_ht=scontent-lax3-2.xx&oh=00_AYB_28Ck37vqqHoGPukDiUux400x7pwkWAozzUis-ZJ4ZQ&oe=6687B1F4
-    date_start: 2023-06-01
-    date_end: 2020-08-19
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#work:
+#  - position: Automation Engineer Intern
+#    company_name: Applied Medical
+#    company_url: https://www.appliedmedical.com/
+#    company_logo: https://media.licdn.com/dms/image/D560BAQEFtXN6bNLgEw/company-logo_200_200/0/1688594181259/appliedmedical_logo?e=1727913600&v=beta&t=ecztKPL0B9jWXYJJoqnu9isj_qbiWB6RklCIIDBsCpc
+#    date_start: 2024-06-03
+#    date_end: ''
+#    summary: |2-
+#      Responsibilities include:
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#  - position: Applications Engineer Intern
+#    company_name: Hexagon Manufacturing Intelligence
+#    company_url: https://hexagon.com/company/divisions/manufacturing-intelligence
+#    company_logo: https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/305479426_5774406909277911_7096762170795830164_n.jpg?stp=dst-jpg_p480x480&_nc_cat=107&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=YJoMCzdgo0wQ7kNvgGrZhGj&_nc_ht=scontent-lax3-2.xx&oh=00_AYB_28Ck37vqqHoGPukDiUux400x7pwkWAozzUis-ZJ4ZQ&oe=6687B1F4
+#    date_start: 2023-06-01
+#    date_end: 2020-08-19
+#    summary: |
+#      Responsibilities include:
+#      - Migrated infrastructure to a new data center
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Regents' and Chancellor's Award
-    url: https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/
-    date: '2024-06-01'
-    awarder: University of California, Berkeley
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+#awards:
+#  - title: Regents' and Chancellor's Award
+#    url: https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/
+#    date: '2024-06-01'
+#    awarder: University of California, Berkeley
+#    icon: coursera
+#    summary: |
+#      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
 ---
 
 ## About Me
 
-Hi! My name is Micah Hsu, and I am a 17-year-old junior in mechanical engineering at UC Berkeley. Check out my portfolio and my resume on this website!
+Hi! My name is Micah Hsu, and I am a 17-year-old junior in mechanical engineering at UC Berkeley. Check out my portfolio and my resume on this website! I'm still in the process of adding projects and updating the site format, so feel free to check back soon to see more.
