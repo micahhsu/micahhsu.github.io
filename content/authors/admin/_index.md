@@ -96,4 +96,4 @@ education:
 
 ## About Me
 
-Hi! My name is Micah Hsu, and I am a 17-year-old junior in mechanical engineering at UC Berkeley. Check out my portfolio and my resume on this website! I'm still in the process of adding projects and updating the site format, so feel free to check back soon to see more.
+Hi! My name is Micah Hsu, and I am a 17-year-old junior mechanical engineering student at UC Berkeley. Check out my portfolio and my resume on this website! I'm still in the process of adding projects and updating the site format, so feel free to check back soon to see more.
