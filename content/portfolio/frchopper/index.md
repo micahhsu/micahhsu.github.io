@@ -15,6 +15,8 @@ Here's our reveal video from that year:
 {{< youtube sENzTtd2u-4 >}}
 
 ## Prototyping
+After determining a basic robot concept and napkin sketch for the hopper, we prototyed the hopper. Here's one low-res image I found in the depths:
+![Prototype](hop-prototype.jpg)
 
 ## Design
 Everything I learned from prototyping, including travel distance, travel speed, ideal compression, and design concept, I took into the design phase. This was my first time using SolidWorks, so I spent probably hundreds of hours crunching this out in the first few weeks of the build season. Nevertheless, it was tons of fun.
@@ -26,7 +28,7 @@ Central to the design were these polycarbonate rollers with polyurethane cords t
 ![Rollers](hop-rollers.jpg)
 
 I also experimented with making an exploded view for my design:
-![Exploded View](hop-exploded.jpg)
+![Exploded View](hop-exploded.png)
 
 ## Manufacturing
 In the manufacturing phase, I kept track of a parts tracker and learned how to make drawings for the manufacturing team. Once all the parts had been fabricated, I led the assembly for the subsystem!
@@ -39,11 +41,12 @@ Here are a few pictures of the beginning of the assembly:
 Here are a few pictures of the final build:
 ![Final Build](hop-final-build.jpg)
 ![Ball in Hopper](hop-ball-in.jpg)
+And a video of it working!
 {{< video src="hop-function.mp4" controls="yes" >}}
 
 ## Competition
 After our first regional competition (which we won!), we had a problem: balls were flying out of the hopper when we didn't want them to. And sometimes, we would intake the wrong color ball (there are two colors of balls on the field, and you're only supposed to shoot one color). The problem (and solution!) is pictured below:
-![Eject Concept](hop-eject-concept.jpg)
+![Eject Concept](hop-eject-concept2.jpg)
 
 So, we had to revise the design so that we could eject balls we didn't want, and make sure we were holding on to the ones we did want. This is what we came up with:
 ![Eject Design](hop-eject-mechanism.png)
@@ -52,4 +55,6 @@ So, we had to revise the design so that we could eject balls we didn't want, and
 And here is it working!
 {{< video src="hop-eject.mp4" controls="yes" >}}
 
-With this, we went on to win our next regional, advancing to the world championship and placing high in our division there.
+With this, we went on to win our next regional, advancing to the world championship and placing high in our division.
+
+![Full Robot](hop-full-robot.jpg)
