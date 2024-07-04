@@ -80,5 +80,5 @@ Here are some images from the Equipment Servising Mission (11th place):
 ![Arm Equipment Servicing2](arm-equipment-servicing2.jpg)
 ![Arm Equipment Servicing3](arm-equipment-servicing3.jpg)
 
-## Conclusion
-I learned so much from this project, and what I've talked about here is just a very brief overview. It was so much fun to carry this from design to final performance!
+And here's my favorite glory shot!
+![Rover](mars-rover.jpg)
