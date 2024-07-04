@@ -50,6 +50,6 @@ So, we had to revise the design so that we could eject balls we didn't want, and
 ![Eject Build](hop-eject-build.jpg)
 
 And here is it working!
-![Eject Video](hop-eject.mp4)
+{{< video src="hop-eject.mp4" controls="yes" >}}
 
 With this, we went on to win our next regional, advancing to the world championship and placing high in our division there.
