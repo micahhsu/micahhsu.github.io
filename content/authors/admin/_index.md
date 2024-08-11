@@ -24,8 +24,6 @@ role: Mechanical Engineering Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Applied Medical
-    url: https://www.appliedmedical.com/
   - name: University of California, Berkeley
     url: https://engineering.berkeley.edu/
 
@@ -96,4 +94,4 @@ education:
 
 ## About Me
 
-Hi! My name is Micah Hsu, and I am a 17-year-old junior mechanical engineering student at UC Berkeley. Check out my portfolio and my resume on this website! This website is still a massive WIP, and I'm still in the process of adding projects and updating the site format. Feel free to check back soon to see more.
+Hello! My name is Micah Hsu, and I'm a 17-year-old junior mechanical engineering student at UC Berkeley. Check out my portfolio and my resume on this website. This website is still a work in progress, and I'm still in the process of adding projects. Feel free to check back soon to see more!
