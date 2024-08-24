@@ -21,5 +21,4 @@ sections:
     design:
       view: card
       columns: 2
-      flip_alt_rows: true
 ---
