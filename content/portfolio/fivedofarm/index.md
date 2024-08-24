@@ -18,7 +18,7 @@ First, a video (0:45 for the arm):
 
 ## Design
 ### Previous Design
-![Old Arm](arm2-old-arm.jpg) \
+![Old Arm](arm2-old-arm.jpg)
 My design was based heavily on my team's previous robotic arm, pictured above. However, we wanted to make the structure more rigid and lightweight. We also needed a new end effector, since the previous one failed to grip objects linearly.
 
 ### Structure
@@ -33,9 +33,10 @@ The previous year's "wrist" was also very complicated with tons of different gea
 
 ## Manufacturing
 This project was my first exposure to such a saturated level of manufacturing. I manufactured almost all of the components on this arm using a CNC router, 3D printers, and other machines like bandsaws and drill presses. Here are a few images:
-![Arm Plates](arm2-plates.JPG) \
-![Arm Plates3](arm2-plates3.JPG) \
-![Arm Plates4](arm2-plates4.jpg)&nbsp;![Arm L Brackets](arm2-l-brackets.jpg)
+![Arm Plates](arm2-plates.JPG)
+![Arm Plates3](arm2-plates3.JPG)
+![Arm Plates4](arm2-plates4.jpg)
+![Arm L Brackets](arm2-l-brackets.jpg)
 ![End Effector](arm2-end-effector-first.jpg)
 ![Forearm](arm2-forearm.jpg)
 ![Arm First Build](arm2-first-build.jpg)
