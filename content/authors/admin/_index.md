@@ -47,7 +47,7 @@ education:
     date_end: 2026-05-01
     summary: |
       lorem ipsum
-  - area: Math and Physics
+  - area: Physics
     institution: Saddleback College
     date_start: 2022-08-01
     date_end: 2024-06-01
@@ -94,4 +94,4 @@ education:
 
 ## About Me
 
-Hello! My name is Micah Hsu, and I'm a 17-year-old junior mechanical engineering student at UC Berkeley. Check out my portfolio and my resume on this website. This website is still a work in progress, and I'm still in the process of adding projects. Feel free to check back soon to see more!
+Hello! My name is Micah Hsu, and I'm a junior mechanical engineering student at UC Berkeley. Check out my portfolio and my resume on this website. This website is still a work in progress, and I'm still in the process of adding projects. Feel free to check back soon to see more!

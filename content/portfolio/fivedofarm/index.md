@@ -18,7 +18,7 @@ First, a video (0:45 for the arm):
 
 ## Design
 ### Previous Design
-![Old Arm](arm2-old-arm.jpg)
+![Old Arm](arm2-old-arm.jpg) \
 This design was based very heavily on my team's previous robotic arm, pictured above. However, we wanted to make the structure more rigid and lightweight. And, we needed a new end effector, since the previous one had failed to grip things linearly.
 
 ### Structure
