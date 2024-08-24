@@ -1,7 +1,7 @@
 ---
 title: Machining
 summary: Gallery of some cool parts I have machined
-date: 2022-06-01
+date: 2023-05-01
 type: project
 math: false
 tags:
