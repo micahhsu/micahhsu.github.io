@@ -13,12 +13,13 @@ sections:
   - block: collection
     id: portfolio
     content:
+      count: 0
       title: Portfolio
       filters:
         folders:
           - portfolio
     design:
-      view: showcase
-      columns: 1
+      view: card
+      columns: 2
       flip_alt_rows: true
 ---
