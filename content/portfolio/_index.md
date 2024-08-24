@@ -19,6 +19,6 @@ sections:
         folders:
           - portfolio
     design:
-      view: card
+      view: article-grid
       columns: 2
 ---
