@@ -19,7 +19,7 @@ description: >- # dont remove this line. this will ignore all new lines until th
   Check out my portfolio and my resume on this website.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar.jpeg
+profile_image: ./assets/images/profile-image/pfp.jpg
 
 
 # Link your resume
@@ -32,7 +32,7 @@ resume-url: /assets/resume/Micah Hsu Resume.pdf # or https://drive.google.com/fi
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
   linkedin: https://www.linkedin.com/in/micah-hsu/    # https://www.linkedin.com/in/{your url slug} 
   github:    # https://github.com/{your url slug} 
-  stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
+  stackoverflow:      # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
   x-twitter:   # https://x.com/{your url slug} 
   threads:            # https://threads.net/@{your url slug} 

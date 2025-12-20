@@ -5,5 +5,5 @@ description:  short description of the project
 skills: 
 - skill 1
 - skill 2
-main-image: /thumbnail.png
+main-image: /thumbnail.jpg
 ---
