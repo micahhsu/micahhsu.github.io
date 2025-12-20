@@ -1,7 +1,7 @@
 ---
 layout: post
-title: project title
-description:  short description of the project
+title: 6 DoF Robotic Arm
+description:  Next generation robotic arm for my college's Mars rover team.
 #skills: 
 #- skill 1
 #- skill 2
@@ -37,7 +37,7 @@ For the materials selection, I considered that my machining capability consisted
 
 ## Manufacturing
 I did most of the manufacturing and assembly for this arm, and it took me a couple months. Here are a couple images of the build!
-{% include image-gallery.html images="arm-3d-printing.jpg, arm-machining.jpg, arm-plates.jpg, arm-plates2.jpg, arm-assembly.JPG, arm-cycloidal-drive.png, arm-bicep.jpg. arm-bicep-comparison.jpg, arm-first-build2.jpg, arm-with-wires.jpg. arm-on-rover.jpg" %}
+{% include image-gallery.html images="arm-3d-printing.jpg, arm-machining.jpg, arm-plates.jpg, arm-plates2.jpg, arm-assembly.JPG, arm-cycloidal-drive.png, arm-bicep.jpg, arm-bicep-comparison.jpg, arm-first-build2.jpg, arm-with-wires.jpg, arm-on-rover.jpg" %}
 
 ## Testing
 During testing, there were two critical failures. 

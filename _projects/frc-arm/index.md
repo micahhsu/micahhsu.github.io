@@ -1,7 +1,7 @@
 ---
 layout: post
-title: project title
-description:  short description of the project
+title: FRC 2023 Telescoping Arm
+description:  A super quick telescoping arm for an FRC Robot
 skills: 
 - skill 1
 - skill 2

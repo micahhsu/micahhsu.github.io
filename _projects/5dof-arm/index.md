@@ -1,7 +1,7 @@
 ---
 layout: post
-title: project title
-description:  short description of the project
+title: 5 DoF Robotic Arm
+description:  Five degree of freedom robotic arm for my college's Mars rover team
 skills: 
 - skill 1
 - skill 2

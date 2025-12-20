@@ -1,7 +1,7 @@
 ---
 layout: post
-title: project title
-description:  short description of the project
+title: Machining
+description:  Gallery of some cool parts I have machined
 skills: 
 - skill 1
 - skill 2
