@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/assets/images/profile-image/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/profile-image/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/profile-image/favicon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <script src="/assets/js/script.js"></script>
+
+    
+    <title>Micah Hsu Portfolio</title>
+    
+
+</head>
+<body>
+    <!-- NAVBAR -->
+     <!-- _includes/nav.html -->
+<nav>
+    <div class="left">
+        <a href="/">Micah Hsu</a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="right desktop-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/assets/resume/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/assets/resume/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+</nav>
+
+     <div class="page"><div class="post-view">
+    <div class="summary">
+        
+       
+        
+               
+        <img src="/_projects/6dof-arm/thumbnail.png" alt="6 DoF Robotic Arm image">
+        
+        <div class="title-header">
+            <h1>6 DoF Robotic Arm</h1>
+        </div>
+        
+        <div class="project-description">
+            <h2>Project Overview</h2>
+            <p>Next generation robotic arm for my college's Mars rover team.</p>
+        </div>
+        
+    </div>
+      
+    <div class="content">
+        <p>I built a 6 degree of freedom robotic arm for <a href="https://saddlebackcollegerobotics.com/">SC Robotics</a>, my college mars rover team, competing in the <a href="https://urc.marssociety.org/home">University Rover Challenge</a>. Leading it from design to the field, it was a tremendous success.</p>
+
+<p>This arm is the most difficult and time-consuming project that I have thus far attempted, but also the most rewarding. The requirements were mechanically and electrically challenging, and the design and implementation required countless iterations.</p>
+
+<p>First, a video (1:23 for the arm):</p>
+
+<div class="youtube-container" style="--max-width: 800px">
+    <div class="youtube-aspect-ratio">
+        <iframe src="https://www.youtube.com/embed/2kkPbTSSpe0?mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+        </iframe>
+    </div>
+</div>
+
+<h2 id="design">Design</h2>
+<h3 id="overall-design">Overall Design</h3>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-screenshot.png" alt="arm-screenshot.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p>Looking back to the <a href="">robotic arm I designed in the previous year</a>, I realized that it lacked mobility. With only five degrees of freedom, the two most important axes had limited rotational range. To increase mobility, this new arm would have six degrees of freedom with a brushless motor and gearbox at every axis, eliminating the linear actuators and brushed motors we had used before. The design was inspired by one that a previous team member had modeled.</p>
+
+<h3 id="electronics">Electronics</h3>
+<p>The electronics essentially consisted of a fusebox, buck converter, motors, motor drivers, and cameras. I chose a 24V system, an upgrade from the previous 12V system, allowing higher torque density and cooler thermals. For the motors, I selected 24V brushless motors for a greater precision and efficiency despite more difficult controls.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-motor.jpg" alt="arm-motor.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p>To spec the correct motors, I created a spreadsheet ballparking the torque required for each axis, leading to the selection of several EC Flat Maxon motors, which worked great.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-calculations.png" alt="arm-calculations.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<h3 id="gearboxes">Gearboxes</h3>
+<p>Each axis comprised a motor and a gearbox to produce the right amount of torque. I used strain wave gearboxes at the first three axes, which sustain the highest moment, and I used custom cycloidal gearboxes for the final three axes. These gearboxes were designed by a previous member but never successfully prototyped. I revised and tested them.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-cycloidal-drive.gif" alt="arm-cycloidal-drive.gif" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-cycloidal-drive.png" alt="arm-cycloidal-drive.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<h3 id="materials">Materials</h3>
+<p>For the materials selection, I considered that my machining capability consisted of a CNC router and 3D printers, along with other simple machines like bandsaws, drill presses, and bench grinders. Consequently, I chose a 6061-T6 aluminum frame, making it light, sturdy, and machinable. I performed FEA on structural parts to ensure safety under expected loads.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-tube-fea.png" alt="arm-tube-fea.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-forearm.png" alt="arm-forearm.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<h2 id="manufacturing">Manufacturing</h2>
+<p>I did most of the manufacturing and assembly for this arm, and it took me a couple months. Here are a couple images of the build!</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-3d-printing.jpg" alt="arm-3d-printing.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-machining.jpg" alt="arm-machining.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-plates.jpg" alt="arm-plates.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-plates2.jpg" alt="arm-plates2.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-assembly.JPG" alt="arm-assembly.JPG" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-cycloidal-drive.png" alt="arm-cycloidal-drive.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-bicep.jpg" alt="arm-bicep.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-bicep-comparison.jpg" alt="arm-bicep-comparison.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-first-build2.jpg" alt="arm-first-build2.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-with-wires.jpg" alt="arm-with-wires.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-on-rover.jpg" alt="arm-on-rover.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<h2 id="testing">Testing</h2>
+<p>During testing, there were two critical failures.</p>
+
+<p>First, one of the motors I chose proved to be too weak at the highest load axis. Solution? Bigger motor! And, bigger gearbox.</p>
+
+<p>Second, the structural member at the shoulder fractured because I did not think hard enough about the design of the shoulder. I had suspected that it would break, but unfortunately left the problem for later. It was a carbon-fiber nylon 3D printed part, but the orientation of the print made it very weak, and a 3D print was nowhere strong enough for this application.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-broken-shoulder.jpg" alt="arm-broken-shoulder.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<p>Solution? Design some parts out of metal.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-metal-shoulder.jpg" alt="arm-metal-shoulder.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<p>After those fixes, we were able to get out and start testing. We had several testing runs, but my favorite was carrying this lantern after sunset:</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-lantern.jpg" alt="arm-lantern.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<p>Finally, here’s a picture of this arm beside the arm I designed last year!</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-mask-photo.jpg" alt="arm-mask-photo.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<h2 id="competition">Competition</h2>
+<p>After acceptance into the final competition in Utah for the University Rover Challenge, the rover competed in two missions that involved the arm: the Delivery mission, a long range and intensive task involving search and delivery of heavy objects, and the Equipment Servicing Mission, a mission involving precise movements. We did great in both of them.</p>
+
+<p>Here are some images from the Delivery Mission (5th place):</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-delivery.jpg" alt="arm-delivery.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-delivery2.jpg" alt="arm-delivery2.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-delivery3.jpg" alt="arm-delivery3.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<p>Here are some images from the Equipment Servising Mission (11th place):</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-equipment-servicing.jpg" alt="arm-equipment-servicing.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-equipment-servicing2.jpg" alt="arm-equipment-servicing2.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/6dof-arm//arm-equipment-servicing3.jpg" alt="arm-equipment-servicing3.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<p>And here’s my favorite glory shot of our rover:
+<img src="mars-rover.jpg" alt="Rover" /></p>
+
+    </div>
+</div>
+
+</div>
+
+     
+</body>
+
+    
+</html>

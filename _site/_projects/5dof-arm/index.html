@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/assets/images/profile-image/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/profile-image/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/profile-image/favicon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <script src="/assets/js/script.js"></script>
+
+    
+    <title>Micah Hsu Portfolio</title>
+    
+
+</head>
+<body>
+    <!-- NAVBAR -->
+     <!-- _includes/nav.html -->
+<nav>
+    <div class="left">
+        <a href="/">Micah Hsu</a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="right desktop-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/assets/resume/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/assets/resume/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+</nav>
+
+     <div class="page"><div class="post-view">
+    <div class="summary">
+        
+       
+        
+               
+        <img src="/_projects/5dof-arm/thumbnail.png" alt="5 DoF Robotic Arm image">
+        
+        <div class="title-header">
+            <h1>5 DoF Robotic Arm</h1>
+        </div>
+        
+        <div class="project-description">
+            <h2>Project Overview</h2>
+            <p>Five degree of freedom robotic arm for my college's Mars rover team</p>
+        </div>
+        
+    </div>
+      
+    <div class="content">
+        <p>I built a 5 degree of freedom robotic arm for <a href="https://saddlebackcollegerobotics.com/">SC Robotics</a>, my college mars rover team, competing in the <a href="https://urc.marssociety.org/home">University Rover Challenge</a>. The design was based on a previous generation arm, but I revised the structure and designed a brand new end effector.</p>
+
+<p>First, a video (0:45 for the arm):</p>
+
+<div class="youtube-container" style="--max-width: 800px">
+    <div class="youtube-aspect-ratio">
+        <iframe src="https://www.youtube.com/embed/SAtsOZK6AJ4?mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+        </iframe>
+    </div>
+</div>
+
+<h2 id="design">Design</h2>
+<h3 id="previous-design">Previous Design</h3>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-old-arm.jpg" alt="arm2-old-arm.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p>My design was based heavily on my team’s previous robotic arm, pictured above. However, we wanted to make the structure more rigid and lightweight. We also needed a new end effector, since the previous one failed to grip objects linearly.</p>
+
+<h3 id="structure">Structure</h3>
+<p>I decided to reconstruct the frame out of Garolite composite fiberglass to save weight. I also incorporated a box structure instead of the standoffs we used before, increasing rigidity.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-forearm-cross-section.jpg" alt="arm2-forearm-cross-section.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<h3 id="end-effector-and-wrist">End Effector and Wrist</h3>
+<p>The previous arm used a worm gear end effector, but because of the worn gears, it no longer pinched objects at the fingertips, similar to a worn out pair of pliers. To prevent this, I designed a new lead-screw-driven end effector.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-end-effector-design.jpg" alt="arm2-end-effector-design.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p>The previous year’s “wrist” was also very complicated with tons of different gears, so I redesigned a simpler new wrist with far fewer components.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-wrist.jpg" alt="arm2-wrist.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<h2 id="manufacturing">Manufacturing</h2>
+<p>This project was my first exposure to such a saturated level of manufacturing. I manufactured almost all of the components on this arm using a CNC router, 3D printers, and other machines like bandsaws and drill presses. Here are a few images:</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-plates.JPG" alt="arm2-plates.JPG" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-plates3.JPG" alt="arm2-plates3.JPG" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-plates4.jpg" alt="arm2-plates4.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-l-brackets.jpg" alt="arm2-l-brackets.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-end-effector-first.jpg" alt="arm2-end-effector-first.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-forearm.jpg" alt="arm2-forearm.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-first-build.jpg" alt="arm2-first-build.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-end-effector.jpg" alt="arm2-end-effector.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<p>Here are some videos:</p>
+
+<video width="100%" controls="" autoplay="" muted="" loop="">
+  <source src="arm2-end-effector-grip.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+<video width="100%" controls="" autoplay="" muted="" loop="">
+  <source src="arm2-gear-series.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<h2 id="competition">Competition</h2>
+<p>After our Systems Acceptance Review, we were admitted to the final competition in Utah. In this competition, there were two missions using the arm: the Extreme Retrieval Mission, a long-range task requiring retrieval of large objects, and the Equipment Servicing Mission, a short-range but very precise task.</p>
+
+<p>Here is a picture from the Extreme Retrieval Mission (unfortunately, our drive train got stuck on a rock. But we had better luck next year!)</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-extreme-retrieval.jpg" alt="arm2-extreme-retrieval.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<p>Here are some images from the Equipment Servicing Mission (13th place!):</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-equipment-servicing.jpg" alt="arm2-equipment-servicing.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-equipment-servicing2.jpg" alt="arm2-equipment-servicing2.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-equipment-servicing3.JPG" alt="arm2-equipment-servicing3.JPG" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/5dof-arm/arm2-equipment-servicing4.jpg" alt="arm2-equipment-servicing4.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+    </div>
+</div>
+
+</div>
+
+     
+</body>
+
+    
+</html>
