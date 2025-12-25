@@ -69,7 +69,7 @@ skills:
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
 colors:
   background: "#121212"      # Dark gray-black background (common for dark mode)
-  light_background: "#333333" # Slightly lighter for cards/sections
+  light_background: "#222222" # Slightly lighter for cards/sections
   text: "#e0e0e0"             # Light gray text for readability
   border: "#333333"           # Dark borders
   link: "#40b3a2"             # Keep your existing blue for links
