@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5 DoF Robotic Arm
-description:  Five degree of freedom robotic arm for my college's Mars rover team
+#description:  Five degree of freedom robotic arm for my college's Mars rover team
 #skills: 
 #- skill 1
 #- skill 2
@@ -13,23 +13,23 @@ I built a 5 degree of freedom robotic arm for [SC Robotics](https://saddlebackco
 First, a video (0:45 for the arm):
 
 {% include youtube-video.html id="SAtsOZK6AJ4" width="800px" autoplay="false" %}
-
-## Design
-### Previous Design
+---
+# Design
+## Previous Design
 {% include image-gallery.html images="arm2-old-arm.jpg" %}
 My design was based heavily on my team's previous robotic arm, pictured above. However, we wanted to make the structure more rigid and lightweight. We also needed a new end effector, since the previous one failed to grip objects linearly.
 
-### Structure
+## Structure
 I decided to reconstruct the frame out of Garolite composite fiberglass to save weight. I also incorporated a box structure instead of the standoffs we used before, increasing rigidity.
 {% include image-gallery.html images="arm2-forearm-cross-section.jpg" %}
 
-### End Effector and Wrist
+## End Effector and Wrist
 The previous arm used a worm gear end effector, but because of the worn gears, it no longer pinched objects at the fingertips, similar to a worn out pair of pliers. To prevent this, I designed a new lead-screw-driven end effector. 
 {% include image-gallery.html images="arm2-end-effector-design.jpg" %}
 The previous year's "wrist" was also very complicated with tons of different gears, so I redesigned a simpler new wrist with far fewer components.
 {% include image-gallery.html images="arm2-wrist.jpg" %}
 
-## Manufacturing
+# Manufacturing
 This project was my first exposure to such a saturated level of manufacturing. I manufactured almost all of the components on this arm using a CNC router, 3D printers, and other machines like bandsaws and drill presses. Here are a few images:
 {% include image-gallery.html images="arm2-plates.JPG, arm2-plates3.JPG, arm2-plates4.jpg, arm2-l-brackets.jpg, arm2-end-effector-first.jpg, arm2-forearm.jpg, arm2-first-build.jpg, arm2-end-effector.jpg" %}
 
@@ -44,7 +44,7 @@ Here are some videos:
   Your browser does not support the video tag.
 </video>
 
-## Competition
+# Competition
 After our Systems Acceptance Review, we were admitted to the final competition in Utah. In this competition, there were two missions using the arm: the Extreme Retrieval Mission, a long-range task requiring retrieval of large objects, and the Equipment Servicing Mission, a short-range but very precise task.
 
 Here is a picture from the Extreme Retrieval Mission (unfortunately, our drive train got stuck on a rock. But we had better luck next year!)
