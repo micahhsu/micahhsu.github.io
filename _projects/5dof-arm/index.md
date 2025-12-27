@@ -12,7 +12,7 @@ I built a 5 degree of freedom robotic arm for [SC Robotics](https://saddlebackco
 
 First, a video (0:45 for the arm):
 
-{% include youtube-video.html id="SAtsOZK6AJ4" width="800px" autoplay="false" %}
+<iframe width="1201" height="510" src="https://www.youtube.com/embed/SAtsOZK6AJ4" title="Saddleback College Robotics URC SAR 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ---
 # Design
 ## Previous Design

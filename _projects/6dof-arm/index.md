@@ -14,12 +14,12 @@ This arm is the most difficult and time-consuming project that I have thus far a
 
 First, a video (1:23 for the arm):
 
-{% include youtube-video.html id="2kkPbTSSpe0" width="800px" autoplay="false" %}
+<iframe width="1201" height="510" src="https://www.youtube.com/embed/2kkPbTSSpe0" title="Saddleback College Robotics URC SAR 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ---
 # Design
 ## Overall Design
 {% include image-gallery.html images="arm-screenshot.png" %}
-Looking back to the [robotic arm I designed in the previous year]({{< relref "/portfolio/fivedofarm" >}}), I realized that it lacked mobility. With only five degrees of freedom, the two most important axes had limited rotational range. To increase mobility, this new arm would have six degrees of freedom with a brushless motor and gearbox at every axis, eliminating the linear actuators and brushed motors we had used before. The design was inspired by one that a previous team member had modeled.
+Looking back to the [robotic arm I designed in the previous year]({{ '/projects/5dof-arm/index' | relative_url }}), I realized that it lacked mobility. With only five degrees of freedom, the two most important axes had limited rotational range. To increase mobility, this new arm would have six degrees of freedom with a brushless motor and gearbox at every axis, eliminating the linear actuators and brushed motors we had used before. The design was inspired by one that a previous team member had modeled.
 
 ## Electronics
 The electronics essentially consisted of a fusebox, buck converter, motors, motor drivers, and cameras. I chose a 24V system, an upgrade from the previous 12V system, allowing higher torque density and cooler thermals. For the motors, I selected 24V brushless motors for a greater precision and efficiency despite more difficult controls. 
@@ -67,4 +67,4 @@ Here are some images from the Equipment Servising Mission (11th place):
 {% include image-gallery.html images="arm-equipment-servicing.jpg, arm-equipment-servicing2.jpg, arm-equipment-servicing3.jpg" %}
 
 And here's my favorite glory shot of our rover:
-![Rover](mars-rover.jpg)
+{% include image-gallery.html images="mars-rover.jpg" %}

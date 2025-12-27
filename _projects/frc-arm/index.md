@@ -12,7 +12,7 @@ In high school, I was part of an award winning [FIRST Robotics Competition](http
 
 Here is our reveal video:
 
-<iframe width="1201" height="676" src="https://www.youtube.com/embed/CvMuQAEPYbs" title="Team 3476: Code Orange 2023 - Robot Reveal &quot;Baja&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1201" height="510" src="https://www.youtube.com/embed/CvMuQAEPYbs" title="Team 3476: Code Orange 2023 - Robot Reveal &quot;Baja&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ---
 # Prototyping
 Each season starts with prototyping, so I experimented with lots of different mechanisms for this telescope. One of them used a constant force spring for extension:

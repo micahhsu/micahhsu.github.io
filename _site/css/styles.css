@@ -659,12 +659,12 @@ footer p {
     max-width: 100%;
     object-fit: contain;
     align-self: center;
-    margin: 0 auto;
+    margin: 1em auto; /* equal top/bottom spacing */
 }
   
 .post-view .content img {
     display: block;
-    margin: 0 auto 1em;
+    margin: 1em auto; /* equal top/bottom spacing, centered */
     max-width: 100%;
 }
 
@@ -696,7 +696,7 @@ footer p {
   }
 
 .post-view .content  p {
-    margin-bottom: 1em;
+    margin: 1em 0; /* equal top/bottom spacing */
   }
 
 .post-view .content  a:hover {
