@@ -5,6 +5,7 @@
   --highlight-color: #2a9d8f;
   --background-color: #121212;
   --light-background-color: #222222;
+  --nav-height: 80px; /* height of the navbar when fixed */
 }
 
 * {
@@ -24,6 +25,11 @@ body {
     background-color: var(--background-color);
     max-width: 1400px;
     margin: 0 auto;
+}
+
+/* make room for the fixed navbar */
+.page {
+    padding-top: var(--nav-height);
 }
 
 a {
@@ -61,11 +67,30 @@ p {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 25px 0;
-    height: 80px;
+    padding: 0 25px;
+    height: var(--nav-height);
     align-items: center;
-    position: relative;
+
+    /* Floating / fixed behavior */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: var(--background-color);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    transition: transform 240ms ease, box-shadow 240ms ease;
+    will-change: transform;
 }
+
+/* When hidden (scrolling down) slide up */
+nav.nav-hidden {
+    transform: translateY(calc(-1 * var(--nav-height) - 4px));
+    box-shadow: none;
+}
+
+/* Slightly reduce padding when fixed to save vertical space */
+nav .left a { padding-left: 0; }
 
 nav .left a {
     color: var(--text-color);
