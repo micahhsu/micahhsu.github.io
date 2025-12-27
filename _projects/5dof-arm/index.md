@@ -35,12 +35,12 @@ This project was my first exposure to such a saturated level of manufacturing. I
 
 Here are some videos:
 
-<video width="100%" controls autoplay muted loop>
-  <source src="arm2-end-effector-grip.mp4" type="video/mp4">
+<video width="75%" controls autoplay muted loop>
+  <source src="/projects/5dof-arm/arm2-end-effector-grip.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-<video width="100%" controls autoplay muted loop>
-  <source src="arm2-gear-series.mp4" type="video/mp4">
+<video width="75%" controls autoplay muted loop>
+  <source src="/projects/5dof-arm/arm2-gear-series.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

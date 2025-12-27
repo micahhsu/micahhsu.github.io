@@ -671,6 +671,26 @@ footer p {
     max-width: 100%;
 }
 
+/* Center embedded videos and YouTube iframes inside posts */
+.post-view .content video {
+    display: block;
+    margin: 0 auto 1em; /* center and keep consistent spacing */
+    max-width: 100%;
+    height: auto;
+}
+
+.post-view .content iframe {
+    display: block;
+    margin: 0 auto 1em; /* center iframes like YouTube embeds */
+    max-width: 100%;
+}
+
+.post-view .content .youtube-container {
+    display: flex;
+    justify-content: center;
+}
+
+
 .post-view .content  a {
     color: #3498db;
     text-decoration: none;

@@ -40,8 +40,8 @@ Here are a few pictures of the beginning of the assembly:
 Here are a few pictures of the final build:
 {% include image-gallery.html images="hop-final-build.jpg, hop-ball-in.jpg" %}
 And a video of it working!
-<video width="100%" controls autoplay muted loop>
-  <source src="hop-function.mp4" type="video/mp4">
+<video width="75%" controls autoplay muted loop>
+  <source src="/projects/frc-hopper/hop-function.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -54,7 +54,7 @@ I revised the design so that we could eject balls we didn't want, and make sure 
 
 And here it is working!
 <video width="100%" controls autoplay muted loop>
-  <source src="hop-eject.mp4" type="video/mp4">
+  <source src="/projects/frc-hopper/hop-eject.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

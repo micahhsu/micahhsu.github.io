@@ -16,7 +16,10 @@ Here is our reveal video:
 
 ## Prototyping
 Each season starts with prototyping, so I experimented with lots of different mechanisms for this telescope. One of them used a constant force spring for extension:
-{{< video src="arm3-prototype.mp4" controls="yes" >}}
+<video width="75%" controls autoplay muted loop>
+  <source src="/projects/frc-arm/arm3-prototype.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 We eventually decided against this design because although fast, it only allows full extension or retraction, with no intermediate positions. We required the system to have precise extension, extend and retract in less than a second, and be lightweight.
 
 ## Design
