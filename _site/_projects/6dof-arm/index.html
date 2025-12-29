@@ -76,17 +76,13 @@
             <h1>6 DoF Robotic Arm</h1>
         </div>
         
-        <div class="project-description">
-            <h2>Project Overview</h2>
-            <p></p>
-        </div>
         
     </div>
       
     <div class="content">
-        <p>I built a 6 degree of freedom robotic arm for <a href="https://saddlebackcollegerobotics.com/">SC Robotics</a>, my college mars rover team, competing in the <a href="https://urc.marssociety.org/home">University Rover Challenge</a>. Leading it from design to the field, it was a tremendous success.</p>
+        <p>In 2024, I built a 6 degree of freedom robotic arm for <a href="https://saddlebackcollegerobotics.com/">SC Robotics</a>, my college mars rover team, competing in the <a href="https://urc.marssociety.org/home">University Rover Challenge</a>. Leading it from design to the field, it was a tremendous success.</p>
 
-<p>This arm is the most difficult and time-consuming project that I have thus far attempted, but also the most rewarding. The requirements were mechanically and electrically challenging, and the design and implementation required countless iterations.</p>
+<p>This arm is the most difficult and time-consuming project that I have attempted, but also the most rewarding. The requirements were mechanically and electrically challenging, and the design and implementation required countless iterations.</p>
 
 <p>First, a video (1:23 for the arm):</p>
 
@@ -118,17 +114,6 @@
       
   
 </div>
-<p>To spec the correct motors, I created a spreadsheet ballparking the torque required for each axis, leading to the selection of several EC Flat Maxon motors, which worked great.</p>
-
-<div class="image-gallery" style="--gallery-height: 400px;">
-  
-      
-      
-          
-          <img src="/_projects/6dof-arm/arm-calculations.png" alt="arm-calculations.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
-      
-  
-</div>
 
 <h2 id="gearboxes">Gearboxes</h2>
 <p>Each axis comprised a motor and a gearbox to produce the right amount of torque. I used strain wave gearboxes at the first three axes, which sustain the highest moment, and I used custom cycloidal gearboxes for the final three axes. These gearboxes were designed by a previous member but never successfully prototyped. I revised and tested them.</p>
@@ -150,15 +135,9 @@
 </div>
 
 <h2 id="materials">Materials</h2>
-<p>For the materials selection, I considered that my machining capability consisted of a CNC router and 3D printers, along with other simple machines like bandsaws, drill presses, and bench grinders. Consequently, I chose a 6061-T6 aluminum frame, making it light, sturdy, and machinable. I performed FEA on structural parts to ensure safety under expected loads.</p>
+<p>For the materials selection, my machining capability consisted of a CNC router and 3D printers, along with other simple machines like bandsaws, drill presses, and bench grinders. Consequently, I chose a 6061-T6 aluminum frame, making it light, sturdy, and machinable. I performed FEA on structural parts to ensure safety under expected loads.</p>
 
 <div class="image-gallery" style="--gallery-height: 400px;">
-  
-      
-      
-          
-          <img src="/_projects/6dof-arm/arm-tube-fea.png" alt="arm-tube-fea.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
-      
   
       
       
@@ -169,7 +148,7 @@
 </div>
 
 <h1 id="manufacturing">Manufacturing</h1>
-<p>I did most of the manufacturing and assembly for this arm, and it took me a couple months. Here are a couple images of the build!</p>
+<p>I did most of the manufacturing and assembly for this arm, and it took me a couple months.</p>
 
 <div class="image-gallery" style="--gallery-height: 400px;">
   
@@ -242,35 +221,9 @@
 </div>
 
 <h1 id="testing">Testing</h1>
-<p>During testing, there were two critical failures.</p>
+<p>Testing was largely a success. It consisted of mock mission runs of picking up large objects and performing fine-tuned maneuvers. There were a few problems which required buying a new motor and machining some stronger parts, but the arm was soon running and performing as desired..</p>
 
-<p>First, one of the motors I chose proved to be too weak at the highest load axis. Solution? Bigger motor! And, bigger gearbox.</p>
-
-<p>Second, the structural member at the shoulder fractured because I did not think hard enough about the design of the shoulder. I had suspected that it would break, but unfortunately left the problem for later. It was a carbon-fiber nylon 3D printed part, but the orientation of the print made it very weak, and a 3D print was nowhere strong enough for this application.</p>
-
-<div class="image-gallery" style="--gallery-height: 400px;">
-  
-      
-      
-          
-          <img src="/_projects/6dof-arm/arm-broken-shoulder.jpg" alt="arm-broken-shoulder.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
-      
-  
-</div>
-
-<p>Solution? Design some parts out of metal.</p>
-
-<div class="image-gallery" style="--gallery-height: 400px;">
-  
-      
-      
-          
-          <img src="/_projects/6dof-arm/arm-metal-shoulder.jpg" alt="arm-metal-shoulder.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
-      
-  
-</div>
-
-<p>After those fixes, we were able to get out and start testing. We had several testing runs, but my favorite was carrying this lantern after sunset:</p>
+<p>We had several testing runs, but my favorite was carrying this lantern after sunset:</p>
 
 <div class="image-gallery" style="--gallery-height: 400px;">
   
@@ -282,7 +235,7 @@
   
 </div>
 
-<p>Finally, here’s a picture of this arm beside the arm I designed last year!</p>
+<p>Finally, here’s a picture of this arm beside the arm I designed the previous year.</p>
 
 <div class="image-gallery" style="--gallery-height: 400px;">
   
@@ -341,18 +294,6 @@
       
           
           <img src="/_projects/6dof-arm/arm-equipment-servicing3.jpg" alt="arm-equipment-servicing3.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
-      
-  
-</div>
-
-<p>And here’s my favorite glory shot of our rover:</p>
-
-<div class="image-gallery" style="--gallery-height: 400px;">
-  
-      
-      
-          
-          <img src="/_projects/6dof-arm/mars-rover.jpg" alt="mars-rover.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
       
   
 </div>

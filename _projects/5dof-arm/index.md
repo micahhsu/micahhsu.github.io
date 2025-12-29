@@ -8,7 +8,7 @@ title: 5 DoF Robotic Arm
 main-image: /thumbnail.png
 ---
 
-I built a 5 degree of freedom robotic arm for [SC Robotics](https://saddlebackcollegerobotics.com/), my college mars rover team, competing in the [University Rover Challenge](https://urc.marssociety.org/home). The design was based on a previous generation arm, but I revised the structure and designed a brand new end effector.
+In 2023, I built a 5 degree of freedom robotic arm for [SC Robotics](https://saddlebackcollegerobotics.com/), my college mars rover team, competing in the [University Rover Challenge](https://urc.marssociety.org/home). The design was based on a previous generation arm, but I revised the structure and designed a brand new end effector.
 
 First, a video (0:45 for the arm):
 
@@ -30,7 +30,7 @@ The previous year's "wrist" was also very complicated with tons of different gea
 {% include image-gallery.html images="arm2-wrist.jpg" %}
 
 # Manufacturing
-This project was my first exposure to such a saturated level of manufacturing. I manufactured almost all of the components on this arm using a CNC router, 3D printers, and other machines like bandsaws and drill presses. Here are a few images:
+I manufactured almost all of the components on this arm using a CNC router, 3D printers, and other machines like bandsaws and drill presses.
 {% include image-gallery.html images="arm2-plates.JPG, arm2-plates3.JPG, arm2-plates4.jpg, arm2-l-brackets.jpg, arm2-end-effector-first.jpg, arm2-forearm.jpg, arm2-first-build.jpg, arm2-end-effector.jpg" %}
 
 Here are some videos:
@@ -47,7 +47,7 @@ Here are some videos:
 # Competition
 After our Systems Acceptance Review, we were admitted to the final competition in Utah. In this competition, there were two missions using the arm: the Extreme Retrieval Mission, a long-range task requiring retrieval of large objects, and the Equipment Servicing Mission, a short-range but very precise task.
 
-Here is a picture from the Extreme Retrieval Mission (unfortunately, our drive train got stuck on a rock. But we had better luck next year!)
+Here is a picture from the Extreme Retrieval Mission (unfortunately, our drive train got stuck on a rock... we had better luck the next year)
 {% include image-gallery.html images="arm2-extreme-retrieval.jpg" %}
 
 Here are some images from the Equipment Servicing Mission (13th place!):
