@@ -55,7 +55,7 @@
         <a href="/">
             <span>Home</span>
         </a>
-        <a href="/projects/">
+        <a href="/portfolio/">
             <span>Projects</span>
         </a>
         <a href="/assets/resume/resume.pdf" target="_blank" rel="noopener noreferrer">
@@ -80,16 +80,13 @@
     </div>
       
     <div class="content">
-        <p>In 2024, I built a 6 degree of freedom robotic arm for <a href="https://saddlebackcollegerobotics.com/">SC Robotics</a>, my college mars rover team, competing in the <a href="https://urc.marssociety.org/home">University Rover Challenge</a>. Leading it from design to the field, it was a tremendous success.</p>
-
-<p>This arm is the most difficult and time-consuming project that I have attempted, but also the most rewarding. The requirements were mechanically and electrically challenging, and the design and implementation required countless iterations.</p>
-
-<p>First, a video (1:23 for the arm):</p>
+        <p>6 degree of freedom arm for <a href="https://saddlebackcollegerobotics.com/">SC Robotics</a>, competing in the <a href="https://urc.marssociety.org/home">University Rover Challenge</a></p>
 
 <iframe width="1201" height="510" src="https://www.youtube.com/embed/2kkPbTSSpe0" title="Saddleback College Robotics URC SAR 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<p style="text-align: center;">
+  <em>Video (1:23 for the arm explanation and demonstration)</em>
+</p>
 <hr />
-<h1 id="design">Design</h1>
-<h2 id="overall-design">Overall Design</h2>
 
 <div class="image-gallery" style="--gallery-height: 400px;">
   
@@ -100,23 +97,26 @@
       
   
 </div>
-<p>Looking back to the <a href="/projects/5dof-arm/index">robotic arm I designed in the previous year</a>, I realized that it lacked mobility. With only five degrees of freedom, the two most important axes had limited rotational range. To increase mobility, this new arm would have six degrees of freedom with a brushless motor and gearbox at every axis, eliminating the linear actuators and brushed motors we had used before. The design was inspired by one that a previous team member had modeled.</p>
+<p style="text-align: center;">
+  <em>Overall design</em>
+</p>
 
-<h2 id="electronics">Electronics</h2>
-<p>The electronics essentially consisted of a fusebox, buck converter, motors, motor drivers, and cameras. I chose a 24V system, an upgrade from the previous 12V system, allowing higher torque density and cooler thermals. For the motors, I selected 24V brushless motors for a greater precision and efficiency despite more difficult controls.</p>
+<p><br /></p>
 
 <div class="image-gallery" style="--gallery-height: 400px;">
   
       
       
           
-          <img src="/_projects/6dof-arm/arm-motor.jpg" alt="arm-motor.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+          <img src="/_projects/6dof-arm/arm-electrical.png" alt="arm-electrical.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
       
   
 </div>
+<p style="text-align: center;">
+  <em>Electrical schematic</em>
+</p>
 
-<h2 id="gearboxes">Gearboxes</h2>
-<p>Each axis comprised a motor and a gearbox to produce the right amount of torque. I used strain wave gearboxes at the first three axes, which sustain the highest moment, and I used custom cycloidal gearboxes for the final three axes. These gearboxes were designed by a previous member but never successfully prototyped. I revised and tested them.</p>
+<p><br /></p>
 
 <div class="image-gallery" style="--gallery-height: 400px;">
   
@@ -133,9 +133,11 @@
       
   
 </div>
+<p style="text-align: center;">
+  <em>Custom cycloidal gearbox</em>
+</p>
 
-<h2 id="materials">Materials</h2>
-<p>For the materials selection, my machining capability consisted of a CNC router and 3D printers, along with other simple machines like bandsaws, drill presses, and bench grinders. Consequently, I chose a 6061-T6 aluminum frame, making it light, sturdy, and machinable. I performed FEA on structural parts to ensure safety under expected loads.</p>
+<p><br /></p>
 
 <div class="image-gallery" style="--gallery-height: 400px;">
   
@@ -145,10 +147,18 @@
           <img src="/_projects/6dof-arm/arm-forearm.png" alt="arm-forearm.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
       
   
+      
+      
+          
+          <img src="/_projects/6dof-arm/arm-bicep.jpg" alt="arm-bicep.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
 </div>
+<p style="text-align: center;">
+  <em>Forearm and bicep</em>
+</p>
 
-<h1 id="manufacturing">Manufacturing</h1>
-<p>I did most of the manufacturing and assembly for this arm, and it took me a couple months.</p>
+<p><br /></p>
 
 <div class="image-gallery" style="--gallery-height: 400px;">
   
@@ -182,17 +192,14 @@
           <img src="/_projects/6dof-arm/arm-assembly.JPG" alt="arm-assembly.JPG" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
       
   
-      
-      
-          
-          <img src="/_projects/6dof-arm/arm-cycloidal-drive.png" alt="arm-cycloidal-drive.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
-      
-  
-      
-      
-          
-          <img src="/_projects/6dof-arm/arm-bicep.jpg" alt="arm-bicep.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
-      
+</div>
+<p style="text-align: center;">
+  <em>Manufacturing process</em>
+</p>
+
+<p><br /></p>
+
+<div class="image-gallery" style="--gallery-height: 400px;">
   
       
       
@@ -219,11 +226,21 @@
       
   
 </div>
+<p style="text-align: center;">
+  <em>Assembly and build</em>
+</p>
 
-<h1 id="testing">Testing</h1>
-<p>Testing was largely a success. It consisted of mock mission runs of picking up large objects and performing fine-tuned maneuvers. There were a few problems which required buying a new motor and machining some stronger parts, but the arm was soon running and performing as desired..</p>
+<p><br /></p>
 
-<p>We had several testing runs, but my favorite was carrying this lantern after sunset:</p>
+<video width="75%" controls="" autoplay="" muted="" loop="">
+  <source src="/_projects/6dof-arm/arm-hatswitch.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+<p style="text-align: center;">
+  <em>Flipping a hat switch</em>
+</p>
+
+<p><br /></p>
 
 <div class="image-gallery" style="--gallery-height: 400px;">
   
@@ -234,8 +251,11 @@
       
   
 </div>
+<p style="text-align: center;">
+  <em>Testing in the dark</em>
+</p>
 
-<p>Finally, here’s a picture of this arm beside the arm I designed the previous year.</p>
+<p><br /></p>
 
 <div class="image-gallery" style="--gallery-height: 400px;">
   
@@ -246,11 +266,11 @@
       
   
 </div>
+<p style="text-align: center;">
+  <em>The two arms I designed, side by side, menacingly</em>
+</p>
 
-<h1 id="competition">Competition</h1>
-<p>After acceptance into the final competition in Utah for the University Rover Challenge, the rover competed in two missions that involved the arm: the Delivery mission, a long range and intensive task involving search and delivery of heavy objects, and the Equipment Servicing Mission, a mission involving precise movements. We did great in both of them.</p>
-
-<p>Here are some images from the Delivery Mission (5th place):</p>
+<p><br /></p>
 
 <div class="image-gallery" style="--gallery-height: 400px;">
   
@@ -273,8 +293,11 @@
       
   
 </div>
+<p style="text-align: center;">
+  <em>Delivery Mission (5th place)</em>
+</p>
 
-<p>Here are some images from the Equipment Servising Mission (11th place):</p>
+<p><br /></p>
 
 <div class="image-gallery" style="--gallery-height: 400px;">
   
@@ -294,6 +317,21 @@
       
           
           <img src="/_projects/6dof-arm/arm-equipment-servicing3.jpg" alt="arm-equipment-servicing3.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p style="text-align: center;">
+  <em>Equipment Servicing Mission (11th place)</em>
+</p>
+
+<p><br /></p>
+
+<div class="image-gallery" style="--gallery-height: 400px;">
+  
+      
+      
+          
+          <img src="/_projects/6dof-arm/mars-rover.jpg" alt="mars-rover.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
       
   
 </div>

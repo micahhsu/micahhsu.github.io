@@ -8,33 +8,77 @@ title: FRC Telescoping Arm
 main-image: /thumbnail.png
 ---
 
-In high school, I was part of an award winning [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) team, [Team 3476: Code Orange](https://www.teamcodeorange.com/). In the 2023 season, I designed a belt-driven telescoping "arm" that could extend up to 19 inches in 0.5 seconds.
-
-Here is our reveal video:
+Telescoping arm for [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) [Team 3476: Code Orange](https://www.teamcodeorange.com/).
 
 <iframe width="1201" height="510" src="https://www.youtube.com/embed/CvMuQAEPYbs" title="Team 3476: Code Orange 2023 - Robot Reveal &quot;Baja&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p style="text-align: center;">
+  <em>Reveal Video</em>
+</p>
 ---
-# Prototyping
-Each season starts with prototyping, so I experimented with lots of different mechanisms for this telescope. One of them used a constant force spring for extension:
 <video width="75%" controls autoplay muted loop>
   <source src="/projects/frc-arm/arm3-prototype.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+<p style="text-align: center;">
+  <em>Prototyping</em>
+</p>
 
-# Design
-After prototyping and discussing constant force springs, lead screws, and pneumatic cylinders, I decided on a belt-driven design. With this, I had to figure the very complex geometry for this robot. Given the constraints of the robot size and the desired extension, I learned how to make nice, detailed sketches.
+<br>
+
 {% include image-gallery.html images="arm3-sketch.jpg" %}
+<p style="text-align: center;">
+  <em>Detailed layout sketch</em>
+</p>
 
-Some other highlights of this design include see-through pocketing:
+<br>
+
 {% include image-gallery.html images="arm3-pocketing.jpg" %}
-And a fish:
-{% include image-gallery.html images="arm3-fish.jpg" %}
+<p style="text-align: center;">
+  <em>See-through pocketing</em>
+</p>
 
-# Manufacturing
-I directed the manufacturing of this arm, making all the drawings for parts, giving them to the manufacturing team, and keeping track of a manufacturing list.
-{% include image-gallery.html images="arm3-printed-parts.jpg, arm3-on-robot.jpg, arm3-final-build.jpg, arm3-final-on-robot.jpg" %}
+<br>
 
-# Competition - Pit Crew!
-At competition, I was selected to be on the 6-man pit crew because of my dedication and expertise in robot design. My pit crew experience was intense. When the robot came back broken from a match, the pit crew often had mere minutes to repair it before the next match. Stress was high, communication was key, and time was always running out. Through this experience, I learned how to analyze mechanisms quickly, work effectively with my pit crew mates, and screw a bolt in very, very quickly. That 2023 Season, Code Orange made it to the Einstein Field, where the top 24 teams out of thousands worldwide compete for the top spot.
+{% include image-gallery.html images="arm3-bearingblock1.jpg, arm3-bearingblock2.jpg" %}
+<p style="text-align: center;">
+  <em>Rear bearing block</em>
+</p>
+
+<br>
+
+{% include image-gallery.html images="arm3-printed-parts.jpg, arm3-final-build.jpg" %}
+<p style="text-align: center;">
+  <em>Manufacturing</em>
+</p>
+
+<br>
+
+{% include image-gallery.html images="arm3-on-robot.jpg, arm3-final-on-robot.jpg" %}
+<p style="text-align: center;">
+  <em>On robot</em>
+</p>
+
+<br>
+
+<video width="75%" controls autoplay muted loop>
+  <source src="/projects/frc-arm/arm3-extension.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<video width="75%" controls autoplay muted loop>
+  <source src="/projects/frc-arm/arm3-up-and-down.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<p style="text-align: center;">
+  <em>Actuation</em>
+</p>
+
+<br>
+
+<iframe width="1201" height="510" src="https://www.youtube.com/embed/bTTKCuN1BeQ" title="Einstein 10 - 2023 FIRST Championship" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p style="text-align: center;">
+  <em>Einstein Field (top 24 teams worldwide)!</em>
+</p>
+
+<br>
 
 {% include image-gallery.html images="arm3-full-robot.jpg" %}

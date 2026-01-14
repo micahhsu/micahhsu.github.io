@@ -8,49 +8,91 @@ title: 6 DoF Robotic Arm
 main-image: /thumbnail.png
 ---
 
-In 2024, I built a 6 degree of freedom robotic arm for [SC Robotics](https://saddlebackcollegerobotics.com/), my college mars rover team, competing in the [University Rover Challenge](https://urc.marssociety.org/home). Leading it from design to the field, it was a tremendous success.
-
-This arm is the most difficult and time-consuming project that I have attempted, but also the most rewarding. The requirements were mechanically and electrically challenging, and the design and implementation required countless iterations.
-
-First, a video (1:23 for the arm):
+6 degree of freedom arm for [SC Robotics](https://saddlebackcollegerobotics.com/), competing in the [University Rover Challenge](https://urc.marssociety.org/home)
 
 <iframe width="1201" height="510" src="https://www.youtube.com/embed/2kkPbTSSpe0" title="Saddleback College Robotics URC SAR 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p style="text-align: center;">
+  <em>Video (1:23 for the arm explanation and demonstration)</em>
+</p>
 ---
-# Design
-## Overall Design
 {% include image-gallery.html images="arm-screenshot.png" %}
-Looking back to the [robotic arm I designed in the previous year]({{ '/projects/5dof-arm/index' | relative_url }}), I realized that it lacked mobility. With only five degrees of freedom, the two most important axes had limited rotational range. To increase mobility, this new arm would have six degrees of freedom with a brushless motor and gearbox at every axis, eliminating the linear actuators and brushed motors we had used before. The design was inspired by one that a previous team member had modeled.
+<p style="text-align: center;">
+  <em>Overall design</em>
+</p>
 
-## Electronics
-The electronics essentially consisted of a fusebox, buck converter, motors, motor drivers, and cameras. I chose a 24V system, an upgrade from the previous 12V system, allowing higher torque density and cooler thermals. For the motors, I selected 24V brushless motors for a greater precision and efficiency despite more difficult controls. 
-{% include image-gallery.html images="arm-motor.jpg" %}
+<br>
 
-## Gearboxes
-Each axis comprised a motor and a gearbox to produce the right amount of torque. I used strain wave gearboxes at the first three axes, which sustain the highest moment, and I used custom cycloidal gearboxes for the final three axes. These gearboxes were designed by a previous member but never successfully prototyped. I revised and tested them.
+{% include image-gallery.html images="arm-electrical.png" %}
+<p style="text-align: center;">
+  <em>Electrical schematic</em>
+</p>
+
+<br>
+
 {% include image-gallery.html images="arm-cycloidal-drive.gif, arm-cycloidal-drive.png" %}
+<p style="text-align: center;">
+  <em>Custom cycloidal gearbox</em>
+</p>
 
-## Materials
-For the materials selection, my machining capability consisted of a CNC router and 3D printers, along with other simple machines like bandsaws, drill presses, and bench grinders. Consequently, I chose a 6061-T6 aluminum frame, making it light, sturdy, and machinable. I performed FEA on structural parts to ensure safety under expected loads.
-{% include image-gallery.html images="arm-forearm.png" %}
+<br>
 
-# Manufacturing
-I did most of the manufacturing and assembly for this arm, and it took me a couple months.
-{% include image-gallery.html images="arm-3d-printing.jpg, arm-machining.jpg, arm-plates.jpg, arm-plates2.jpg, arm-assembly.JPG, arm-cycloidal-drive.png, arm-bicep.jpg, arm-bicep-comparison.jpg, arm-first-build2.jpg, arm-with-wires.jpg, arm-on-rover.jpg" %}
+{% include image-gallery.html images="arm-forearm.png, arm-bicep.jpg, " %}
+<p style="text-align: center;">
+  <em>Forearm and bicep</em>
+</p>
 
-# Testing
-Testing was largely a success. It consisted of mock mission runs of picking up large objects and performing fine-tuned maneuvers. There were a few problems which required buying a new motor and machining some stronger parts, but the arm was soon running and performing as desired..
+<br>
 
-We had several testing runs, but my favorite was carrying this lantern after sunset:
+{% include image-gallery.html images="arm-3d-printing.jpg, arm-machining.jpg, arm-plates.jpg, arm-plates2.jpg, arm-assembly.JPG" %}
+<p style="text-align: center;">
+  <em>Manufacturing process</em>
+</p>
+
+<br>
+
+{% include image-gallery.html images="arm-bicep-comparison.jpg, arm-first-build2.jpg, arm-with-wires.jpg, arm-on-rover.jpg" %}
+<p style="text-align: center;">
+  <em>Assembly and build</em>
+</p>
+
+<br>
+
+<video width="75%" controls autoplay muted loop>
+  <source src="/_projects/6dof-arm/arm-hatswitch.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<p style="text-align: center;">
+  <em>Flipping a hat switch</em>
+</p>
+
+<br>
+
 {% include image-gallery.html images="arm-lantern.jpg" %}
+<p style="text-align: center;">
+  <em>Testing in the dark</em>
+</p>
 
-Finally, here's a picture of this arm beside the arm I designed the previous year.
+<br>
+
 {% include image-gallery.html images="arm-mask-photo.jpg" %}
+<p style="text-align: center;">
+  <em>The two arms I designed, side by side, menacingly</em>
+</p>
 
-# Competition
-After acceptance into the final competition in Utah for the University Rover Challenge, the rover competed in two missions that involved the arm: the Delivery mission, a long range and intensive task involving search and delivery of heavy objects, and the Equipment Servicing Mission, a mission involving precise movements. We did great in both of them.
+<br>
 
-Here are some images from the Delivery Mission (5th place):
 {% include image-gallery.html images="arm-delivery.jpg, arm-delivery2.jpg, arm-delivery3.jpg" %}
+<p style="text-align: center;">
+  <em>Delivery Mission (5th place)</em>
+</p>
 
-Here are some images from the Equipment Servising Mission (11th place):
+<br>
+
 {% include image-gallery.html images="arm-equipment-servicing.jpg, arm-equipment-servicing2.jpg, arm-equipment-servicing3.jpg" %}
+<p style="text-align: center;">
+  <em>Equipment Servicing Mission (11th place)</em>
+</p>
+
+<br>
+
+{% include image-gallery.html images="mars-rover.jpg" %}
